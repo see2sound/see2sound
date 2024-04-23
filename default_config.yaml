@@ -1,0 +1,21 @@
+codi_encoder: '.cache/see2sound/codi/codi_encoder.pth'
+codi_text: '.cache/see2sound/codi/codi_text.pth'
+codi_audio: '.cache/see2sound/codi/codi_audio.pth'
+codi_video: '.cache/see2sound/codi/codi_video.pth'
+
+sam: '.cache/see2sound/sam/sam.pth'
+# H, L or B in decreasing performance
+sam_size: 'H'
+
+depth: '.cache/see2sound/depth/depth.pth'
+# L, B, or S in decreasing performance
+depth_size: 'L'
+
+download: True
+low_mem: False
+fp16: False
+gpu: True
+steps: 500
+num_audios: 3
+prompt: ''
+verbose: True
