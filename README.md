@@ -174,5 +174,12 @@ This code base is built on top of, and thanks to them for maintaining the reposi
 If you find See-2-Sound helpful, please consider citing:
 
 ```bibtex
-Coming Soon
+@misc{dagli2024see2sound,
+      title={SEE-2-SOUND: Zero-Shot Spatial Environment-to-Spatial Sound}, 
+      author={Rishit Dagli and Shivesh Prakash and Robert Wu and Houman Khosravani},
+      year={2024},
+      eprint={2406.06612},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
