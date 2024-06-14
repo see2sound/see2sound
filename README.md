@@ -8,7 +8,7 @@
 <a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fsee2sound%2Fsee2sound">
   <img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fsee2sound%2Fsee2sound" alt="Twitter">
 </a>
-<a href=""><img src='https://img.shields.io/badge/arXiv-See2Sound-red' alt='Paper PDF'></a>
+<a href="https://arxiv.org/abs/2406.06612"><img src='https://img.shields.io/badge/arXiv-See2Sound-red' alt='Paper PDF'></a>
 <a href='https://see2sound.github.io'><img src='https://img.shields.io/badge/Project_Page-See2Sound-green' alt='Project Page'></a>
 </div>
 
@@ -174,5 +174,12 @@ This code base is built on top of, and thanks to them for maintaining the reposi
 If you find See-2-Sound helpful, please consider citing:
 
 ```bibtex
-Coming Soon
+@misc{dagli2024see2sound,
+      title={SEE-2-SOUND: Zero-Shot Spatial Environment-to-Spatial Sound}, 
+      author={Rishit Dagli and Shivesh Prakash and Robert Wu and Houman Khosravani},
+      year={2024},
+      eprint={2406.06612},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
