@@ -28,6 +28,7 @@ setup(
     version=get_version("see2sound/version.py"),
     description="SEE-2-SOUND: Zero-Shot Spatial Environment-to-Spatial Sound",
     packages=find_packages(),
+    include_package_data=True,
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/see2sound/see2sound",
