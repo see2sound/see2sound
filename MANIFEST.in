@@ -1,2 +1,2 @@
 include LICENSE
-recursive-include see2sound *.json *.py
+recursive-include see2sound *
