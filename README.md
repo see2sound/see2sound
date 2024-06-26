@@ -26,7 +26,7 @@ You could also skip this section and run this entirely in a docker container, fo
 First, install the pip package by running:
 
 ```sh
-pip install see2sound
+pip install -e git+https://github.com/see2sound/see2sound.git#egg=see2sound
 ```
 
 Now, install all the required packages:
