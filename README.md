@@ -142,6 +142,7 @@ We share some tips on running the code and reproducing our results.
 
 ### on installing required packages
 
+- If you just want to run inference, I recommend using `torch==2.3.0` and using this slim [`requirements.txt` file](https://huggingface.co/spaces/rishitdagli/see-2-sound/blob/main/requirements.txt).
 - You could find some ways to perform the quantitative evaluation with the original [Visual Acoustic Matching](https://github.com/facebookresearch/visual-acoustic-matching) repository, we would, however, suggest using the [fork](https://github.com/Rishit-dagli/visual-acoustic-matching-s2s) which has some additional features which are required if you want to run our code from the `pip` package.
 - The repository has the dependency `tensorflow` which is required by `speech_metrics` and `vam`. However, this is only needed for the quantitative evaluations in our work and not for inference.
 - Our codebase works with PyTorch 2.x, to this extent all of our code and results were produced with PyTorch 2.3.0, our `requirements.txt` file, however, has PyTorch 1.13.1 since PyTorch 1.x is required for our quantitative evaluation.
