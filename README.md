@@ -21,7 +21,7 @@ This work presents **SEE-2-SOUND**, a method to generate spatial audio from imag
 
 ## Installation
 
-You could also skip this section and run this entirely in a docker container, for which you can find the instructions in [Run in Docker](#run-in-docker).
+You could also skip this section and run this entirely in a docker container, for which you can find the instructions in [Run in Docker](#run-in-docker), or using [Gradio](#.
 
 First, install the pip package by running:
 
@@ -135,6 +135,14 @@ docker pull rishitdagli/see2sound:latest
 ```
 
 You can now use `docker run` and start running inference or evaluation in the container with the environment setup and models pre-downloaded for you.
+
+## Build using Gradio
+
+You could also setup the app using Gradio.
+
+```sh
+python app.py
+```
 
 ## Tips
 
