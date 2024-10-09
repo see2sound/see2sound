@@ -1,0 +1,31 @@
+gradio
+-e git+https://github.com/see2sound/see2sound.git#egg=see2sound
+opencv-python-headless
+matplotlib
+# don't install torch or numpy explicitly in hf spaces which has some environment issues
+# numpy==1.26.4
+# torch
+torchvision
+torchaudio
+segment_anything @ git+https://github.com/facebookresearch/segment-anything
+scipy
+pyroomacoustics
+diffusers
+transformers==4.26.0
+contourpy
+huggingface-hub
+librosa
+lightning-utilities
+numba
+pytorch-lightning
+torchlibrosa
+torchmetrics
+einops
+wget
+decord
+ftfy
+easydict
+six
+timm
+pyyaml
+spaces
