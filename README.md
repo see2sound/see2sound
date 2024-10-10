@@ -141,7 +141,7 @@ You can now use `docker run` and start running inference or evaluation in the co
 You could also setup the app using Gradio.
 
 ```sh
-pip install -r req-gradio.txt
+pip install -r gradio-req.txt
 python app.py
 ```
 
