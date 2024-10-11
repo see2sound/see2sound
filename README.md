@@ -10,7 +10,7 @@
 </a>
 <a href="https://arxiv.org/abs/2406.06612"><img src='https://img.shields.io/badge/arXiv-See2Sound-red' alt='Paper PDF'></a>
 <a href='https://see2sound.github.io'><img src='https://img.shields.io/badge/Project_Page-See2Sound-green' alt='Project Page'></a>
-<a href='https://huggingface.co/spaces/rishitdagli/see-2-sound'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a>
+<a href="https://huggingface.co/spaces/rishitdagli/see-2-sound"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Gradio%20Demo-Huggingface-orange"></a>
 <a href='https://huggingface.co/papers/2406.06612'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Paper-yellow'></a>
 </div>
 </div>
@@ -21,7 +21,7 @@ This work presents **SEE-2-SOUND**, a method to generate spatial audio from imag
 
 ## Installation
 
-You could also skip this section and run this entirely in a docker container, for which you can find the instructions in [Run in Docker](#run-in-docker).
+You could also skip this section and run this entirely in a docker container, for which you can find the instructions in [Run in Docker](#run-in-docker), or using [Gradio](#build-using-gradio) (for any HF/Gradio issues cc [@jadechoghari](https://github.com/jadechoghari) 🤗).
 
 First, install the pip package by running:
 
@@ -135,6 +135,15 @@ docker pull rishitdagli/see2sound:latest
 ```
 
 You can now use `docker run` and start running inference or evaluation in the container with the environment setup and models pre-downloaded for you.
+
+## Build using Gradio
+
+You could also setup the app using Gradio.
+
+```sh
+pip install -r gradio-req.txt
+python app.py
+```
 
 ## Tips
 
