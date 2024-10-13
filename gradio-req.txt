@@ -28,4 +28,3 @@ easydict
 six
 timm
 pyyaml
-spaces

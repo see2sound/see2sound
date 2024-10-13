@@ -3,7 +3,6 @@ from typing import Tuple, Union
 import gradio as gr
 import numpy as np
 import see2sound
-import spaces
 import torch
 import yaml
 from huggingface_hub import snapshot_download
@@ -23,7 +22,6 @@ model = see2sound.See2Sound(config_path="default_config.yaml")
 model.setup()
 
 
-@spaces.GPU(duration=300)
 @torch.no_grad()
 def process_image(
     image: str, num_audios: int, prompt: Union[str, None], steps: Union[int, None]
