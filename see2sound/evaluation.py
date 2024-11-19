@@ -480,16 +480,9 @@ class eval_See2Sound(See2Sound):
         files1 = sorted(os.listdir(folder1))
         files2 = sorted(os.listdir(folder2))
 
-        # Create pairs of file paths
-        file_pairs = [
-            (os.path.join(folder1, file1), os.path.join(folder2, file2))
-            for file1, file2 in zip(files1, files2)
-        ]
-
-        for pair in file_pairs:
-            audio_path1, audio_path2 = pair
+        for file1, file2 in zip(files1, files2):
             similarity.append(
-                self.compute_acoustic_similarity(audio_path1, audio_path2)
+                self.compute_acoustic_similarity(os.path.join(folder1, file1), os.path.join(folder2, file2))
             )
 
         return similarity
