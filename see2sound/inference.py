@@ -420,7 +420,7 @@ class See2Sound:
         receiver_pos = [room_dimensions[0] / 2, room_dimensions[1] / 2, 0]
         mic_pos = [receiver_pos[i] + mic_coordinates[i] for i in range(3)]
         room.add_microphone(mic_pos)
-        # room.compute_rir()
+        room.compute_rir()
         room.simulate()
         output_signal = room.mic_array.signals[0]
         l = len(output_signal)
